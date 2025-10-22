@@ -8,7 +8,7 @@ import {
   Paper,
 } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Draggable from "react-draggable";
 import { Resizable } from "react-resizable";
 import NexWorld from "./NexWorld";
@@ -81,12 +81,15 @@ darkTheme = createTheme(darkTheme, {
 });
 
 function PaperComponent(props) {
+  const nodeRef = useRef(null);
+
   return (
     <Draggable
+      nodeRef={nodeRef}
       handle="#draggable-dialog-title"
       cancel={'[class*="MuiDialogContent-root"]'}
     >
-      <Paper {...props} />
+      <Paper ref={nodeRef} {...props} />
     </Draggable>
   );
 }

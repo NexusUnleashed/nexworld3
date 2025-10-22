@@ -136,10 +136,9 @@ const startup = () => {
       Object.assign(document.createElement("div"), { id: "nexworld-modal" })
     );
 
-  ReactDOM.render(
-    React.createElement(nexWorld.component, { nexWorld: nexWorld }),
-    document.getElementById("nexworld-modal")
-  );
+  const container = document.getElementById("nexworld-modal");
+  const root = ReactDOM.createRoot(container);
+  root.render(React.createElement(nexWorld.component, { nexWorld: nexWorld }));
 
   // Nexus processes the overhead map stuff in the background.
   // This snippet also sends the information to eventStream.
