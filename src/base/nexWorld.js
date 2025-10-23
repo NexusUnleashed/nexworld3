@@ -6,7 +6,7 @@ import {
   topoj,
 } from "./topo";
 
-import NexDialog from "../components/NexDialog";
+import NexDialog from "../components/NexDialog.jsx";
 import { toggleDirs, longDirConversion, directionCoords } from "./tables";
 import { drawMap, unitHeight, unitWidth } from "./drawing";
 
