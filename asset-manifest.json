@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nexworld3/static/css/main.eb00120f.css",
-    "main.js": "/nexworld3/static/js/main.28a4bb6e.js",
-    "static/js/787.12c1979d.chunk.js": "/nexworld3/static/js/787.12c1979d.chunk.js",
+    "main.css": "/nexworld3/static/css/main.67c6ec4e.css",
+    "main.js": "/nexworld3/static/js/main.7df58365.js",
+    "static/js/453.f29674f5.chunk.js": "/nexworld3/static/js/453.f29674f5.chunk.js",
     "static/media/sea-serpent.svg": "/nexworld3/static/media/sea-serpent.f51775a8468f478ccd66058e373768a0.svg",
     "index.html": "/nexworld3/index.html",
-    "main.eb00120f.css.map": "/nexworld3/static/css/main.eb00120f.css.map",
-    "main.28a4bb6e.js.map": "/nexworld3/static/js/main.28a4bb6e.js.map",
-    "787.12c1979d.chunk.js.map": "/nexworld3/static/js/787.12c1979d.chunk.js.map"
+    "main.67c6ec4e.css.map": "/nexworld3/static/css/main.67c6ec4e.css.map",
+    "main.7df58365.js.map": "/nexworld3/static/js/main.7df58365.js.map",
+    "453.f29674f5.chunk.js.map": "/nexworld3/static/js/453.f29674f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb00120f.css",
-    "static/js/main.28a4bb6e.js"
+    "static/css/main.67c6ec4e.css",
+    "static/js/main.7df58365.js"
   ]
 }
